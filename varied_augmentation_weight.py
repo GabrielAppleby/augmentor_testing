@@ -1,6 +1,7 @@
 import numpy as np
 import umap
 import umap.plot
+from sklearn.preprocessing import StandardScaler
 
 from augmentations.augmentting import scale_augmented_features
 from data.data_processor import load_data
